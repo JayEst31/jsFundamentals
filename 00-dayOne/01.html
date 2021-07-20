@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="01.css">
+    <style>
+        body { 
+            background-color: gainsboro;
+            padding: 1em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        #mainTitle {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="mainTitle">First Day Notes: </h1>
+
+    <h2>NOTES</h2>
+    <ul class="notes" id="list">
+        <li class="list-items">HTML stands for Hypertext Markup Language</li>
+        <li class="list-items">DOCTYPE states the type of our document. In this case, HTML</li>
+        <li class="list-items">our html tag denotes our language to be English, per the lang="en"</li>
+        <li class="list-items">The head tag houses metadata, or detailed data about our doc.</li>
+        <li class="list-items">UTF-8 specifies character encoding. Each character (letter, nuber, even spaces) has a numeric value.</li>
+        <li class="list-items">viewport notes the device we are reading our document on.</li>
+        <li class="list-items">title reflect the name that displays on our browser tab. </li>
+        <li class="list-items">link allow us to connect to other files, such as our stylesheet (CSS)</li>
+        <li class="list-items">a style tag can help us inject css into our document. *Not the best practice</li>
+        <li class="list-items">the body tag houses all the other tags that we want to display onto our browser. This will be what the user sees!</li>
+    </ul>
+
+    <!-- command + /: shortcut for comment. -->
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+
+    <h1>'Two Truths and a Lie'</h1>
+    <div>
+        <h3 id="title">Cliff Jump In Mexico</h3>
+        <p class="headings">Summer of 2014 went hiking with cousins in Puebla, Mexico. Once we reached the top they said only way down is to jump the 40 foot cliff. </p>
+        <h3 id="title">Four Dogs</h3>
+        <p class="headings">My girlfriend works at a vet hospital and has a huge heart for dogs. She surprises me with a new dog every year.</p>
+        <h3 id="title">Ran over an old lady.</h3>
+        <p class="headings">I was pulling out a of a parking spot while arguing with my friends in the back and I did not notice the old lady.</p>
+    </div>
+
+    <div>
+        <h2>Movies</h2>
+        <table class="movieTable">
+            <tr>
+                <th>Movie Title</th>
+                <th>Year</th>
+                <th>Runtime</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td id="movieTitles">Wrath of Men</td>
+                <td>2021</td>
+                <td>2h 1m</td>
+                <td>7.2/10</td>
+            </tr>
+            <tr>
+                <td id="movieTitles">The Gentlemen</td>
+                <td>2020</td>
+                <td>1h 53m</td>
+                <td>7.8/10</td>
+            </tr>
+            <tr>
+                <td id="movieTitles">Spiral</td>
+                <td>2021</td>
+                <td>1h 33m</td>
+                <td>5.3/10</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

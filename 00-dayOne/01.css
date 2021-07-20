@@ -1,0 +1,25 @@
+div h1{
+    color: lightgreen;
+    text-align: center;
+}
+
+div h3 {
+    color: blue;
+}
+
+div p{
+    border: black;
+    border-width: 25px;
+    border-style: solid;
+}
+
+.movieTable{
+    background-color: lightskyblue;
+    border: solid black 5px;
+    position: relative;
+    align-content: center;
+}
+
+.movieTitles{
+    font-style: italic;
+}
