@@ -176,3 +176,8 @@ let sent = 'This sentence will be split into individual parts';
 
 const word = sent.split(' ');
 console.log(word);
+
+
+let x = 'hello world'; 
+
+console.log(x);
