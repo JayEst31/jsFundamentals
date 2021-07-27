@@ -82,6 +82,7 @@ let nock = 1;
 // 4 - repeat the code until the result changes?
 
 let shoot = (x, y) => {
+    for(y; y < 4; y++){ }
     if(y < 3){
     console.log(`${x} only shot ${y} arrow..`)
     }else{
@@ -90,3 +91,8 @@ let shoot = (x, y) => {
 }
 
 shoot(hero, nock);
+
+let count = 0;
+for (; count < 9; ++count){
+    console.log(count);
+}
